@@ -17,5 +17,5 @@ onMounted(async() => {
 <template>
 
   <h1>Output:</h1>
-  <pre style="font-size: 30px;">{{ output.fish }}</pre>
+  <pre style="font-size: 30px;">{{ output.test }}</pre>
 </template>
