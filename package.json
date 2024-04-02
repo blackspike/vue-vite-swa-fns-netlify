@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mux/mux-node": "^8.2.3",
     "vue": "^3.4.21"
   },
   "devDependencies": {
