@@ -7,6 +7,8 @@ const mux = new Mux({
 export async function handler(event, context) {
   try {
 
+    const playbackId = event.queryStringParameters.playbackId || 'prvYht02SQG8GrSxYy6na005oZJE3YuAccnzKlXWEM1bw'
+
     let baseOptions = {
       keyId: process.env.muxSigningKeyId,
       keySecret: process.env.muxSigningKeySecret,
