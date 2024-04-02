@@ -8,7 +8,7 @@ onMounted(async() => {
   const searchParams = new URLSearchParams(window.location.search)
   const test = searchParams.get('test')
 
-  const response = await fetch(`/api/test-function?test=${test}`)
+  const response = await fetch(`/.netlify/functions/test-function?test=${test}`)
   output.value = await response.json()
 })
 
